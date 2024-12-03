@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+body[data-theme='dark'] {
+    background-color: rgb(0, 195, 255);
+    color: black;
+  }
+  
+  body[data-theme='light'] {
+    background-color: white;
+    color: black;
+  }
+  
